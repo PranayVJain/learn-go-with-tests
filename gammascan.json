@@ -1,0 +1,23 @@
+{
+	"gammaAccess": {
+		"url": "http://192.168.2.236:3000",
+		"userName": "admin@mygamma.io",
+		"password": "admin"
+	},
+	"repositories": [{
+		"repository": {
+			"uid": "bd3d4ba76ed24b4a06b8b111c63369ce",
+			"projectName": "GOO",
+			"sources": {
+				"baseDir": "$WORKSPACE"
+			}
+		},
+		"dataDir": "$GAMMA_DATA",
+		"modules": {
+			"codeissues": [
+					{
+						"name": "gometalinter"
+					}]
+		}
+	}]
+}
